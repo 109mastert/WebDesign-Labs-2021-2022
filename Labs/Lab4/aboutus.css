@@ -1,0 +1,79 @@
+nav,footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    font-weight: bold;
+    
+}
+.navigation{
+    display: flex;
+}
+.navigation>li{
+    padding-left: 1em;
+    padding-right: 1em;
+    list-style: none;
+}
+a{
+    color: #999;
+    text-decoration: none;
+}
+ul>li:nth-child(2)>a{
+    color: limegreen;
+}   
+ul>li>a:hover{
+    transition: all ease-in 150ms;
+    color: rgb(119, 205, 119);
+}
+.breadcrumbs{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: rgb(119, 205, 119);
+    color: white;
+    font-weight: bold;
+}
+.breadcrumbs>h2{
+    margin-left: 3.2em;
+}
+.breadcrumbs>p{
+    margin-right: 5em;
+}
+main{
+    margin-top: 1em;
+    background-color: rgb(200, 200, 200);
+    padding: 1em 5em 1em 5em;
+    text-align: center;
+}
+main>h1{
+    color: white;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: rgb(230, 230, 230);
+    margin: 1em;
+    border-radius: 1em;
+    font-weight: bold;
+    width: 20.5%;
+}
+.card>h1{
+    margin: 0px;
+}
+.card>img{
+    padding: 1em 0.5em;
+}
+.card>p{
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: justify;
+}
+.card>hr{
+    margin: 1em;
+}
+footer>p{
+    font-weight: normal;
+}

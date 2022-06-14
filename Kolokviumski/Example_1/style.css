@@ -1,0 +1,144 @@
+/* 10 15  */
+/* 10 58 + animation? 11 07 */
+body{
+    background-image: url(containerbackground.gif);
+    background-repeat: repeat-y;
+    background-position: center;
+    margin: 0 auto;
+    width: 663px;
+    position: relative;
+}
+#pageHeader span{
+    display: none;
+}
+#pageHeader h1{
+    margin: 0 29px;
+    background-image: url(top.gif);
+    background-repeat: no-repeat;
+    width: 605px;
+    height: 332px;
+}
+#quickSummary{
+    float: right;
+}
+#quickSummary p{
+    width: 178px;
+    margin-right: 43px;
+}
+#quickSummary p::before{
+    margin: -15px 0 0 -7px;
+    content: '';
+    display: inline-block;
+    background-image: url(summary.gif);
+    width: 192px;
+    height: 46px;
+}
+#preamble p{
+    margin-left: 50px;
+    width: 370px;
+}
+#preamble h3 span{
+    display: none;
+}
+#preamble h3{
+    margin: 0 0 0 37px;
+    background-image: url(title1.gif);
+    width: 389px;
+    height: 46px;
+}
+#supportingText{
+    width: 389px;
+    display:inline-block;
+}
+#supportingText h3 span{
+    display: none;
+}
+#supportingText h3{
+    margin: 0 0 0 37px;
+    background-image: url(title2.gif);
+    background-repeat: no-repeat;
+    height: 46px;
+    width: 389px;
+}
+#supportingText p{
+    margin-left: 50px;
+}
+#participation{
+    display: inline-block;
+}
+#participation h3 span{
+    display: none;
+}
+#participation h3{
+    margin: 0 0 0 37px;
+    background-image: url(title3.gif);
+    background-repeat: no-repeat;
+    height: 46px;
+    width: 389px;
+}
+#participation p span{
+    margin-left: 15px;
+}
+#participation ul{
+    margin-left: 70px;
+}
+#participation a{
+    line-height: 1.5;
+    color: crimson;
+    text-decoration: none;
+}
+#lselect h3 span{
+    display: none;
+}
+#lselect{
+    margin: -980px 28px 0 0 ;
+    width: 200px;
+    float: right;
+}
+#lselect h3{
+    background-image: url(designs.gif);
+    background-repeat: no-repeat;
+    height: 46px;
+    width: 192px;
+}
+#lselect ul li{
+    list-style-image: url(paperfolded.gif);
+}
+#lselect ul{
+    line-height: 1.25;
+    margin: -5px 5px 0 -10px;
+}
+#lresources{
+    margin: -740px 36px 0 0 ;
+    clear: both;
+    float: right;
+    width: 192px;
+}
+#lresources h3 span{
+    display: none;
+}
+#lresources h3{
+    background-image: url(resources.gif);
+    height: 46px;
+    width: 192px;
+}
+#lresources ul li{
+    list-style-image: url(paper.gif);
+}
+#lresources ul{
+    line-height: 1.25;
+    margin: -5px 5px 0 -10px;
+}
+#lresources ul li a{
+    text-decoration: none;
+    color: crimson;
+}
+#extraDiv1 span::after{
+    font-family: Arial, Helvetica, sans-serif;
+    content: 'Animation?';
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 200px;
+}

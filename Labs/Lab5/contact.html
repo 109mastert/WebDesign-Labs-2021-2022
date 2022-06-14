@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <h1>
+            Finki<span>Page</span>
+        </h1>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="info.html">INFO</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Contact form</h2>
+        <form action="#">
+            <fieldset>
+                <div>
+                    <label for="name">First Name</label>
+                    <input id="name" type="text" placeholder="Your name..">
+                </div>
+                <div>
+                    <label for="lname">Last Name</label>
+                    <input id="lname" type="text" placeholder="Your last name..">    
+                </div>
+                <div>
+                    <label for="date">Date of birth</label>
+                    <input id="date" type="date">
+                </div>
+                <div>
+                    <label for="country">Country</label>
+                    <select id="contry" name="country">
+                        <option value="afghanistan">Afghanistan</option>
+                        <option value="albania">Albania</option>
+                        <option value="algeria">Algeria</option>
+                        <option value="andorra">Andorra</option>
+                        <option value="angola">Angola</option>
+                        <option value="austria">Austria</option>
+                        <option value="australia" selected>Australia</option>
+                        <option value="belarus">Belarus</option>
+                        <option value="bosniaandherzegovina">Bosnia and Herzegovina</option>
+                        <option value="brazil">Brazil</option>
+                        <option value="canada">Canada</option>
+                        <option value="croatia">Croatia</option>
+                        <option value="czech">Czech</option>
+                        <option value="denmark">Denmark</option>
+                        <option value="egypt">Egypt</option>
+                        <option value="italy">Italy</option>
+                        <option value="france">France</option>
+                        <option value="germany">Germany</option>                        
+                        <option value="northmacedonia">North Macedonia</option>
+                        <option value="russia">Russia</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="file">CV</label>
+                    <input type="file" id="file">
+                </div>
+                <div class="text-area">
+                    <label for="subject">Subject</label><br>
+                    <textarea id="subject" cols="30" rows="10" placeholder="Write something.."></textarea>    
+                </div>
+                <button id="submitbutton">Submit</button#>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
